@@ -12,7 +12,9 @@ shrink or grow. This enables direct comparison between empirical critical bubble
 profiles.
 
 A representative (Euclidean) Lagrangian often used in `examples/` is
-![L = 1/2*(dφ/dxᵢ)² + 1/2 * 1/12*|λ|*φ_b²*φ² - 1/4!*|λ|*φ⁴ + 1/6!*ε*φ⁶](figs/Lagrangian.svg)
+
+![L = 1/2*(dφ/dxᵢ)² + 1/2 * 1/12*|λ|*φ_b²*φ² - 1/4!*|λ|*φ⁴ + 1/6!*ε*φ⁶](figs/Lagrangian.png)
+
 to study a model of a single real scalar field with an adjustable barrier width between the false and true
 vacuum. The fate of the phase transitions in this model were studied in [JHEP 05 (2025) 182](https://doi.org/10.1007/JHEP05(2025)182). 
 Other potentials can be implemented by modyfying the source.
