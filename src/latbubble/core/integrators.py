@@ -4,7 +4,6 @@ from latticesim.utils.noise import compute_noise, momentum_refresh
 
 def _rhs(phi, phi_t, gamma, potential, laplacian, noise_term, use_refresh):
     if use_refresh:
-        # OU handled separately -> Hamiltonian part only
         return laplacian(phi) - potential(phi)
     else:
         return laplacian(phi) - gamma * phi_t - potential(phi) + noise_term
