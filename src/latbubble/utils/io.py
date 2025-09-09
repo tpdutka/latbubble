@@ -16,9 +16,8 @@ def save_histogram(path: str | Path, bin_centers, counts, title: str | None = No
 
 def extract_subgrid(field, center):
     x0, y0, z0 = center
-    N = field.shape[0]  # assumes cubic lattice (Nx = Ny = Nz)
+    N = field.shape[0]
 
-    # Create index ranges with periodic wrapping
     x_idx = np.arange(x0 - half_N, x0 + half_N) % N
     y_idx = np.arange(y0 - half_N, y0 + half_N) % N
     z_idx = np.arange(z0 - half_N, z0 + half_N) % N
