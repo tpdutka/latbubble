@@ -38,7 +38,7 @@ simulation found in [2407.06263](https://arxiv.org/abs/2407.06263).
 
 Clone the repository and install with pip:
 ```
-git clone https://github.com/your-username/latticesim.git
+git clone https://github.com/tpdutka/latbubble.git
 cd latbubble
 pip install .
 ```
