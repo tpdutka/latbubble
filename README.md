@@ -17,6 +17,7 @@ A representative (Euclidean) Lagrangian often used in `examples/` is
 
 to study a model of a single real scalar field with an adjustable barrier width between the false and true
 vacuum. The fate of the phase transitions in this model were studied in [JHEP 05 (2025) 182](https://doi.org/10.1007/JHEP05(2025)182). 
+Additional videos generated directly from simulations performed with `latbubble` can be found [here](https://www.youtube.com/@tdutka_phys).
 Other potentials can be implemented by modyfying the source.
 
 The code has since been further developed and used to study critical bubble dynamics,
