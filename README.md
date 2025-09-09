@@ -109,7 +109,7 @@ python examples/subsimulation_separatrix.py /path/to/data_dir/ t0
 Same, but for a single snapshot at time t0. Assumes data generated from simulation_with_bubble_data_saving.py.
 
 
-### Probability of transitioning given a profile(from `seperatrix_sub_simulations.py`)
+### Probability of transitioning given a profile (from `seperatrix_sub_simulations.py`)
 ![Subsimulation results](figs/phi_r_multi.png)
 
 Averaged value of phi wiht time for a number of new simulations with the same initial profile but different thermal fluctuations. Some 
